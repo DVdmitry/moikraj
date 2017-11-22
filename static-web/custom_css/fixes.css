@@ -1,0 +1,638 @@
+.element-invisible {
+    display: none !important
+}
+
+.fivestar-widget-static .star {
+    display: inline-block;
+}
+.fivestar-widget-static .star span {
+    margin: 0
+}
+
+div.fivestar-widget-static .star, div.fivestar-widget .star {
+    width: 18px !important;
+    height: 19px !important;
+    background-size: 18px 19px !important;
+    background: url("../images/elements/star-off.svg");
+}
+div.fivestar-widget-static .star span.on, .fivestar-widget .star.on a, .fivestar-widget .star.hover a {
+    width: 18px !important;
+    height: 19px !important;
+    background-size: 18px 19px !important;
+    background: url("../images/elements/star-on.svg");
+    display: block;
+}
+div.fivestar-widget .star a {
+    background: none;
+}
+div.fivestar-widget-static .star span.off {
+    background: none
+}
+
+.comment .text-part p {
+    margin-top: 5px !important
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-widget-content {
+    border: none;
+}
+
+.pager-load-more.pager a {
+    -moz-user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background: #2e83bf;
+    border: 1px solid #0861a0;
+    border-radius: 0;
+    color: #fff;
+    margin: 20px 0;
+    padding: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.pager-load-more.pager a:hover {
+    background: #2f7cb9;
+}
+.gastronomia .pager-load-more.pager a {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    color: #555;
+    font-weight: 700;
+}
+.gastronomia .pager-load-more.pager a:hover {
+    background-color: #eee;
+    color: #222;
+}
+#edit-exchange .form-item {
+    display: inline-block;
+}
+.exposed_sorts li {
+    display: inline-block;
+}
+.exposed_sorts li a {
+    border: 1px solid #0861A0;
+    color: #0861A0;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0 0 0 8px;
+    padding: 4px 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.exposed_sorts li a.current, .exposed_sorts li a:hover {
+    background: none repeat scroll 0 0 #0861A0;
+    color: #FFFFFF;
+}
+@media (max-width: 991px) {
+    .exposed_sorts li a {
+        margin: 0 0 0 6px;
+    }
+}
+@media (max-width: 450px) {
+    .exposed_sorts li a  {
+        margin: 0 0 0 4px;
+    }
+}
+.navbar-color span.counter {
+    background: none
+}
+#autocomplete {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+#autocomplete li {
+    padding: 6px 12px;
+}
+#autocomplete li:hover {
+    cursor: pointer;
+    background: #E8E8E8;
+}
+.rest-name-block input {
+    background: none;
+}
+
+.flag-wrapper {
+    position: inherit;
+}
+.book-active {
+    opacity: 1;
+}
+
+.form-type-checkbox label.option + label {
+    display: none !important;
+}
+.form-type-checkbox {
+    float: left;
+    width: 50%
+}
+#edit-field-excursion-types .form-type-checkbox {
+    width: 33%
+}
+#admin-content textarea {
+    width: 100% !important
+}
+#edit-body label {
+    display: none;
+}
+.resizable-textarea .grippie {
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+.form-item-field-homestead-phones-und-0-second, .form-item-field-homestead-phones-und-1-second {
+    float: right;
+    width: 60%;
+}
+#admin-main .field-suffix {
+    display: none;
+}
+.admin-submit .btn.btn-admin-submit.form-submit {
+    height: auto !important;
+    line-height: 30px !important;
+    padding: 6px 40px !important;
+    width: auto !important;
+}
+
+.field-multiple-table {
+    width: 100%
+}
+.ief-entity-operations input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: medium none !important;
+    height: auto !important;
+    line-height: 100% !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 3px;
+    width: auto !important;
+
+}
+.admin_edit_icon, .admin_remove_icon {
+    display: inline-block;
+}
+
+#ief-entity-table-edit-field-homestead-prices-und-entities td.ief-tabledrag-handle {
+    display: none;
+}
+#edit-field-homestead-prices-und-form {
+    margin-top: 25px;
+}
+
+#edit-field-homestead-prices-und-actions input, #edit-field-homestead-prices-und-form-actions input {
+    font-size: 12px !important;
+    line-height: 25px !important;
+    margin: 15px 15px 0 0 !important;
+    padding: 0 15px !important;
+}
+
+#edit-field-homestead-prices-und-actions .btn-admin-submit {
+    width: auto;
+}
+
+fieldset[id*='edit-field-homestead-prices-und-form'] {
+    margin-top: 25px;
+}
+fieldset[id*='edit-field-homestead-prices-und-actions'] input, fieldset[id*='edit-field-homestead-prices-und-form-actions'] input {
+    font-size: 12px !important;
+    line-height: 25px !important;
+    margin: 15px 15px 0 0 !important;
+    padding: 0 15px !important;
+}
+
+.bx-wrapper {
+    margin-bottom: 10px
+}
+#ief-entity-table-edit-field-homestead-prices-und-entities {
+    width: 100%
+}
+
+.tabledrag-toggle-weight-wrapper {
+    display: none;
+}
+
+#ajax-register-form .error {
+    border: 1px solid red
+}
+.form-textarea-wrapper, .field-type-text-long {
+    clear: both;
+    position: relative;
+}
+
+.hierarchical-select select {
+    display: none !important
+}
+.hierarchical-select .btn-group:first-child {
+    margin-right: 20%
+}
+.hierarchical-select .btn-group {
+    display: inline-block !important;
+    float: none !important;
+    width: 40% !important;
+}
+.hierarchical-select-wrapper .hierarchical-select .selects {
+    float: left;
+    width: 100%;
+}
+#admin-photo-upload > div:not(:last-child) {
+    display: none;
+}
+.thumbnail-wrapper > div {
+    margin: 20px auto 20px;
+}
+.hierarchical-select-wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.hierarchical-select .btn-group {
+    display: inline-block !important;
+    float: none !important;
+    width: 50% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (max-width: 420px){
+    .hierarchical-select .btn-group {
+        width: 100% !important;
+    }
+}
+#edit-field-homestead-prices-und-form-field-homestead-price-photo {
+    margin-bottom: 15px;
+}
+#edit-field-homestead-prices-und-form-field-homestead-price-photo .image-widget {
+    margin-bottom: 15px;
+}
+
+.filter-wrapper, #admin-content #edit-field-homestead-rating, #admin-content .vertical-tabs-panes, #admin-content .form-actions, .ckeditor_links, .vertical-tab, .form-type-mfw-managed-file .description {
+    display: none !important;
+}
+.field-type-fivestar .bootstrap-select {
+	display: none !important;
+}
+
+#search #edit-places {
+    border: 0 none;
+    border-radius: 0;
+    height: 30px;
+    left: 15px;
+    position: relative;
+    width: 60px;
+}
+
+.google-analytics-detail h3 {
+    font-size: 16px;
+}
+.google-analytics-detail table th {
+    font-size: 12px;
+}
+.google-analytics-referrals .item-list {
+    margin-top: 10px;
+}
+.google-analytics-pageviews, .google-analytics-totals {
+    margin-bottom: 25px;
+}
+
+#admin-prices fieldset.form-wrapper div.form-wrapper input.form-submit123 {
+    width: auto !important;
+    font-size: 12px !important;
+    line-height: 25px !important;
+    margin: 15px 15px 0 0 !important;
+    padding: 0 15px !important;
+}
+
+#edit-field-homestead-prices input[id*="form-actions-ief-edit-save"], #edit-field-homestead-prices input[id*="form-actions-ief-remove-confirm"], #edit-field-homestead-prices input[id*="form-actions-ief-add-save"], #edit-field-homestead-prices input[id*="form-actions-ief-edit-cancel"], #edit-field-homestead-prices input[id*="form-actions-ief-remove-cancel"], #edit-field-homestead-prices input[id*="form-actions-ief-add-cancel"] {
+    width: auto !important;
+    font-size: 12px !important;
+    line-height: 25px !important;
+    margin: 5px 15px 5px 0 !important;
+    padding: 0 15px !important;
+}
+
+#edit-field-homestead-prices .ief-row-form .ief-form-row {
+    border-bottom: 1px solid #d3e0e3;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 768px){
+    .navbar-color .navbar-collapse.in {
+        overflow-y: visible !important;
+    }
+}
+.mCSB_inside > .mCSB_container {
+    margin-right: 20px;
+}
+.field-type-fivestar {
+    margin-top: 10px;
+}
+#admin-content form .description {
+    font-style: italic;
+    font-size: 11px;
+    margin-top: 5px;
+    color: #333333;
+    font-family: Arial;
+}
+#admin-content .tab-pane .tips {
+    font-style: italic;
+    font-size: 13px;
+    color: #333333;
+    font-family: Arial;
+    margin: 0 0 15px 0;
+}
+#admin-content #admin-location .description {
+    margin: 10px 0 0;
+}
+#admin-content #admin-prices .description {
+    font-style: italic;
+    font-size: 11px;
+    color: #333333;
+    font-family: Arial;
+}
+#admin-content #admin-prices .description.basic {
+    margin: 30px 0 0;
+}
+#admin-content #user-profile-form .form-item-current-pass .description a {
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #428bca;
+    font-family: Roboto, sans-serif;
+}
+#edit-field-homestead-location .hierarchical-select div.error {
+    background-image:none;
+    background-color: white;
+}
+.form-item-terms span {
+    font-size: 12px !important;
+
+}
+.form-item-terms span a {
+    display: inline-block !important;
+}
+.form-item-terms label + label {display: none !important;}
+
+ul.tabs.primary, ul.tabs.secondary {
+    display: none;
+}
+.view-id-section_landmarks {
+    margin-top: 27px;
+}
+
+.map_legend li {
+    color: black;
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+}
+.map_legend li img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.search-sort {
+    text-align: right;
+}
+
+.map_steads  a {
+    border: 1px solid #0861a0;
+    color: #0861a0;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: normal;
+    padding: 4px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.42;
+    margin-top: -2px;
+    display: inline-block;
+}
+@media (max-width: 991px){
+    .map_steads  a {
+        margin-top: 15px;
+        float: none;
+    }
+    .map_steads{
+        text-align: center;
+    }
+}
+.map_steads a:hover{
+    background: none repeat scroll 0 0 #0861A0;
+    color: #FFFFFF;
+}
+
+.header-value-picker .ajax-progress {
+    display: none;
+}
+
+ul.pager-load-more .ajax-progress {
+    display: block;
+    position: absolute;
+    bottom: 48px;
+    margin-left: 80px;
+    left: 50%;
+    background: transparent;
+}
+
+ul.pager-load-more .ajax-progress .throbber {
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    background:url(../images/throbber.svg);
+    float:left;
+}
+
+.search-sidebar .ajax-progress {
+    display: block;
+    position: absolute;
+    margin-left: 55px;
+    left: 50%;
+}
+
+.search-sidebar .ajax-progress .throbber {
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    background:url(../images/throbber.svg);
+    float:left;
+    bottom: 20px;
+    top: inherit;
+    left: inherit;
+    margin: 0;
+}
+@media (max-width: 767px) {
+    ul.pager-load-more .ajax-progress {
+        bottom: 28px;
+    }
+}
+
+ymaps address {
+    font-style:italic;
+    font-size:12px;
+    margin-bottom:0;
+    text-align: left;
+}
+#edit-field-premium legend {
+    display: none;
+}
+.container-inline-date .date-padding {
+    padding: 0;
+}
+.captcha-textfield {
+    display: none !important;
+}
+#edit-field-recipe-add {
+    margin-top: 20px;
+}
+#admin-content input.form-autocomplete {
+    background-position: 100% 6px;
+}
+#admin-content .panel-body label {
+    display: block;
+}
+#admin-content .panel-body label.option, #admin-content .panel-body .form-type-radios label {
+    display: inline-block;
+}
+#admin-content input[type=radio] {
+    width: inherit;
+    height: inherit;
+}
+#slider_section div.box-ng {
+    height: 245px;
+    padding: 0;
+    position: relative;
+    background: url(../images/novyj-god-shishki.jpg);
+}
+#slider_section div.box-ng > p {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    margin: 0 10px 10px 0;
+}
+@media (max-width: 1199px) {
+    #slider_section div.box-ng {
+        height: 200px;
+    }
+    #slider_section div.box-ng > p {
+        font-size: 20px !important;
+        margin: 0 8px 8px 0 !important;
+    }
+}
+@media (max-width: 520px) {
+    #slider_section div.box-ng {
+        height: 180px;
+    }
+}
+div.input-group input.form-autocomplete {
+    background-image: none;
+}
+a.tabledrag-handle .handle {
+    font-size: 24px;
+}
+
+
+.content input[type=text], .content input[type=password] {
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    border-radius: 0;
+    background: none !important;
+    outline: none;
+}
+.content input::-webkit-input-placeholder, .content textarea::-webkit-input-placeholder {
+    color: rgba(8, 97, 160, 0.6);
+}
+.content input::-moz-placeholder, .content textarea::-moz-placeholder {
+    color: rgba(8, 97, 160, 0.6);
+}
+.content input:-moz-placeholder, .content textarea:-moz-placeholder {
+    color: rgba(8, 97, 160, 0.6);
+}
+.content input:-ms-input-placeholder, .content textarea:-ms-input-placeholder {
+    color: rgba(8, 97, 160, 0.6);
+}
+form .field-multiple-table .form-text {
+    margin: 3px 0;
+}
+form .field-multiple-table a.tabledrag-handle .handle {
+    margin: -0.15em 0.5em;
+}
+form .field-multiple-table td.field-multiple-drag a.tabledrag-handle {
+    padding: 0;
+}
+form .field-multiple-table .warning {
+    display: none;
+}
+form .input-group .form-control {
+    padding: 0;
+    border: none;
+}
+.view-content .row {
+    margin: 2px 0;
+}
+.chosen-container-multi .chosen-choices {
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    background: #fff;
+    min-height: 30px;
+    outline: none;
+}
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    line-height: 30px;
+    margin: 0;
+    padding-left: 5px;
+}
+.chosen-container-multi .chosen-choices li.search-choice {
+    padding: 5px 20px 4px 5px;
+}
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    top: 7px;
+}
+.chosen-container-active .chosen-choices {
+    border-color: #adadad;
+    box-shadow: none;
+}
+.icon-skype:before {
+    background: url(../images/ic_skype.svg) no-repeat;
+    background-size: 20px 20px;
+    content: "";
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+}
+.icon-viber:before {
+    background: url(../images/ic_viber.svg) no-repeat;
+    background-size: 20px 20px;
+    content: "";
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+}
+.tab-phone .voip {
+    font-size: 16px;
+}
+.castle-price.BYN span:last-of-type {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+.prices.BYN span:last-of-type {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
