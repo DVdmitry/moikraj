@@ -5,8 +5,18 @@ body {
 }
 
 .backgr {
+	background-color: #F8F8F8;
 	height: 280px;
 	background: url(../img/paris.jpg) no-repeat;
+	background-size: 100%;
+	background-position: right center;
+	position: relative;
+	width: 100%;
+}
+
+.backgr-smolensk {
+	height: 280px;
+	background: url(../img/smolensk.jpg) no-repeat;
 	background-size: 100%;
 	background-position: right center;
 	position: relative;
@@ -29,21 +39,19 @@ body {
 
 .white {
 	color: white;
+	text-shadow: 2px 2px 10px black;
 }
 
 .border {
 	border: red solid;
 }
 
-.white:hover {
-	color: greenyellow;
-}
 
 ol li a:hover {
 	text-decoration: none;
 }
 
-.go-flex {
+.go-flex-wrap {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
@@ -65,6 +73,7 @@ ol li a:hover {
 
 .visible-content {
 	border: #e8e8e8 solid;
+	margin: 0 20px;
 }
 
 .tab-header {
@@ -75,4 +84,120 @@ ol li a:hover {
 .bckgr-tab {
 	background-color: #2e83bf;
 	color: white;
+}
+
+.margin-left-top-1 {
+	margin: 5% 0 0 1%;
+}
+.bckgr-btn {
+	display: flex;
+	margin-top: 1%;
+}
+
+.bckgr-btn li a {
+	display: block;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 5px 15px 5px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 110%;
+}
+
+.bckgr-btn li {
+	text-align: center;
+	border: 4px solid white;
+	margin-left: 2%;
+	background-color: #2e83bf;
+
+}
+.bckgr-btn li:hover{
+	background-color: white;
+	color: #2e83bf;
+	border: 4px solid #2e83bf;
+
+}
+.bckgr-btn li a:hover{
+	color: #2e83bf;
+}
+
+.bckgr-btn li:hover .ref{
+	color: #2e83bf;
+}
+
+.refs {
+	margin: 0 10px;
+}
+
+#startDate, #finishDate {
+	height: 32px;
+}
+.custom-btn {
+	background-color: white;
+	color: #2e83bf;
+	border: 2px solid #2e83bf !important;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 2%;
+	text-transform: uppercase;
+	border-radius: 0 !important;
+}
+.width-23 {
+	width: 23%;
+}
+.custom-btn:hover {
+	background-color: #2e83bf !important;
+	color: white !important;
+}
+
+.go-flex {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+a.white:hover {
+	background-color: white;
+	border-radius: 10%;
+}
+.circle {
+	background-color: #FFD740;
+	border-radius: 50%;
+	border: orange solid;
+	padding: 0px 5px;
+	margin: 5px 5px;
+	color: #3C85FE;
+}
+
+@media (max-width: 768px){
+	.go-block {
+		display: block;
+	}
+}
+
+@media (max-width: 470px){
+	.page-title h1 {
+		font-size: large;
+	}
+	.page-title h3 {
+		font-size: medium;
+	}
+	.bckgr-btn {
+		display: block;
+		margin: 2%;
+	}
+	.bckgr-btn li {
+		margin: 2%;
+	}
+
+	ol.breadcrumb li{
+		margin: 30px 0 0 0;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 420px) {
+	.page-title h3 {
+		display: none;
+	}
 }

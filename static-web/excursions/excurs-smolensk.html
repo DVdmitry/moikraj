@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Excursions</title>
+    <link rel="stylesheet" href="../custom_css/style.css">
+    <link rel="stylesheet" href="../custom_css/fixes.css">
+    <link rel="stylesheet" href="../custom_css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="backgr-smolensk">
+    <ol class="breadcrumb transparent">
+        <li><a href="#" class="white">Все экскурсии</a></li>
+        <li><a href="#" class="white">Россия</a></li>
+        <li class="white">Смоленск</li>
+    </ol>
+    <div class="white margin-left-top-1 page-title">
+        <h1>Экскурсии в Смоленске </h1>
+        <h3>Необычные экскурсии от творческих жителей города</h3>
+    </div>
+    <ul id="nav-btns">
+    </ul>
+</div>
+
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <form class="navbar-form">
+            <div class="form-group">
+                <label for="startDate" class="go-block">Дата</label>
+                <input type="date" id = "startDate" placeholder="c" name="startDate">
+            </div>
+            <div class="form-group">
+            <input type="date" id = "finishDate" placeholder="до" name="finishDate">
+            </div>
+
+            <div class="form-group">
+                <select class="form-control" name="group">
+                    <option>1 человек</option>
+                    <option>2 человека</option>
+                    <option>3 человека</option>
+                    <option>4 человека</option>
+                    <option>5 человек</option>
+                </select>
+            </div>
+            <div class="form-group">
+                 <label for="price">Цена</label>
+                <select class="form-control" id="price" name="price">
+                    <option>любая </option>
+                    <option>от 40 долл. до 50 долл.</option>
+                    <option>от 50 долл. до 60 долл.</option>
+                    <option>от 60 долл. до 80 долл.</option>
+                    <option>от 80 долл. до 100 долл.</option>
+                </select>
+                <button type="submit" class="custom-btn btn">Найти</button>
+            </div>
+
+            <div class="form-group go-flex">
+                <input type="text" class="form-control" placeholder="Искать в тексте">
+                <input type="button" class="custom-btn btn" value="Поиск">
+            </div>
+        </form>
+    </div>
+</nav>
+
+
+<script src="scriptSmolensk.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

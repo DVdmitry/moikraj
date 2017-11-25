@@ -6,6 +6,7 @@ let refs = document.querySelector(".refs");
 let contents = document.querySelector(".contents");
 let refContainer = [];
 let contentContainer = [];
+
 refNames.forEach(renderRefs);
 
 function renderRefs(arrayElem) {
@@ -17,6 +18,7 @@ function renderRefs(arrayElem) {
 }
 
 refContent.forEach(renderContent);
+
 function renderContent(arrayElem) {
     let content = document.createElement("div");
     content.setAttribute("class", "invisible");
@@ -26,22 +28,27 @@ function renderContent(arrayElem) {
 }
 
 refContainer.forEach(changeTab);
-function changeTab (tab, index) {
+
+function changeTab(tab, index) {
 
 
     tab.addEventListener('click', function () {
-        for (let i = 0; i< refContainer.length; i++) {
+        for (let i = 0; i < refContainer.length; i++) {
             if ($(refContainer[i]).hasClass("bckgr-tab")) {
                 refContainer[i].className = refContainer[i].className.replace("bckgr-tab", "");
             }
         }
         tab.classList.add("bckgr-tab");
         contentContainer.forEach(makeInvisible);
+
         function makeInvisible(elem) {
             if (elem.className === "visible-content") {
                 elem.className = elem.className.replace("visible-content", "invisible");
             }
         }
+
         contentContainer[index].className = contentContainer[index].className.replace("invisible", "visible-content");
     })
 }
+
+
